@@ -134,7 +134,7 @@ export default function HomePage() {
               We solve technology challenges with business in mind.
             </h2>
             <p className="text-[var(--text-muted)] text-base sm:text-lg mt-4 leading-relaxed">
-              GrowCell IT Architect works with forward-thinking organizations to translate operational friction into scalable, elegant, and future-ready technology architectures.
+              Growcell IT Architect works with forward-thinking organizations to translate operational friction into scalable, elegant, and future-ready technology architectures.
             </p>
           </div>
 
@@ -362,13 +362,13 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                quote: "GrowCell built an ERP that fits our wholesale operations like a glove. We stopped bleeding inventory and our accountants finally have real-time reconciliation.",
+                quote: "Growcell built an ERP that fits our wholesale operations like a glove. We stopped bleeding inventory and our accountants finally have real-time reconciliation.",
                 name: "Rajiv Singhania",
                 role: "Managing Director, Apex Wholesale Supplies",
                 rating: 5,
               },
               {
-                quote: "The 50-seat robotics lab setup was delivered ahead of schedule. GrowCell trained our teachers and the student engagement has been extraordinary.",
+                quote: "The 50-seat robotics lab setup was delivered ahead of schedule. Growcell trained our teachers and the student engagement has been extraordinary.",
                 name: "Dr. Ananya Sharma",
                 role: "Academic Director, Greenwood International",
                 rating: 5,

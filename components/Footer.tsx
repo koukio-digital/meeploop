@@ -34,7 +34,7 @@ export default function Footer() {
               <div className="h-10 w-44 relative">
                 <Image
                   src="/img/logo.png"
-                  alt="GrowCell IT Architect"
+                  alt="Growcell IT Architect"
                   width={176}
                   height={40}
                   className="object-contain filter brightness-110"
@@ -48,11 +48,11 @@ export default function Footer() {
             {/* Direct Contact Badges */}
             <div className="space-y-2 pt-2">
               <a
-                href="mailto:business@growcell.in"
+                href="mailto:business@Growcell.in"
                 className="flex items-center gap-2.5 text-xs text-slate-600 dark:text-slate-300 hover:text-cyan transition-colors"
               >
                 <Mail className="w-4 h-4 text-cyan" />
-                <span>business@growcell.in</span>
+                <span>business@Growcell.in</span>
               </a>
               <a
                 href="tel:+919472146511"
@@ -77,7 +77,7 @@ export default function Footer() {
             {/* Social icons */}
             <div className="flex items-center gap-3 pt-2">
               <a
-                href="https://www.linkedin.com/company/growcell/"
+                href="https://www.linkedin.com/company/Growcell/"
                 target="_blank"
                 rel="noreferrer"
                 className="w-8 h-8 rounded-lg bg-slate-100 dark:bg-white/5 hover:bg-[#0A66C2]/20 hover:text-[#0A66C2] text-slate-600 dark:text-slate-300 flex items-center justify-center transition-all border border-slate-200 dark:border-white/10 hover:border-[#0A66C2]/40"
@@ -95,7 +95,7 @@ export default function Footer() {
                 <Github className="w-4 h-4" />
               </a>
               <a
-                href="https://x.com/growcelldigital"
+                href="https://x.com/Growcelldigital"
                 target="_blank"
                 rel="noreferrer"
                 className="w-8 h-8 rounded-lg bg-slate-100 dark:bg-white/5 hover:bg-white/20 hover:text-white text-slate-600 dark:text-slate-300 flex items-center justify-center transition-all border border-slate-200 dark:border-white/10 hover:border-white/40"
@@ -106,7 +106,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://www.instagram.com/growcell.in"
+                href="https://www.instagram.com/Growcell.in"
                 target="_blank"
                 rel="noreferrer"
                 className="w-8 h-8 rounded-lg bg-slate-100 dark:bg-white/5 hover:bg-pink-500/20 hover:text-pink-500 text-slate-600 dark:text-slate-300 flex items-center justify-center transition-all border border-slate-200 dark:border-white/10 hover:border-pink-500/40"
@@ -153,7 +153,7 @@ export default function Footer() {
               Company
             </h4>
             <ul className="space-y-2.5 text-sm text-slate-400">
-              <li><Link href="/about" className="hover:text-cyan transition-colors">About GrowCell</Link></li>
+              <li><Link href="/about" className="hover:text-cyan transition-colors">About Growcell</Link></li>
               <li><Link href="/about#principles" className="hover:text-cyan transition-colors">Core Philosophy</Link></li>
               <li><Link href="/contact" className="hover:text-cyan transition-colors">Consultation</Link></li>
               <li><Link href="/contact" className="hover:text-cyan transition-colors">Support & Inquiries</Link></li>
@@ -164,7 +164,7 @@ export default function Footer() {
 
         {/* Footer Bottom */}
         <div className="mt-14 pt-8 border-t border-slate-200 dark:border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 dark:text-slate-400">
-          <p>© {new Date().getFullYear()} GrowCell IT Architect. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Growcell IT Architect. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <span>Technology Partner for Growing Enterprises</span>
             <button

@@ -17,9 +17,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://growcell.in'),
-  title: 'GrowCell IT Architect & Technology Solutions',
-  description: 'GrowCell IT Architect provides IT consulting, custom software development, ERP, CRM, HRMS, billing software, websites, mobile applications, IT infrastructure and digital technology solutions.',
+  metadataBase: new URL('https://Growcell.in'),
+  title: 'Growcell IT Architect ',
+  description: 'Growcell IT Architect provides IT consulting, custom software development, ERP, CRM, HRMS, billing software, websites, mobile applications, IT infrastructure and digital technology solutions.',
   keywords: [
     'IT Architect',
     'Custom ERP Development',
@@ -30,23 +30,23 @@ export const metadata: Metadata = {
     'Robotics Lab Setup',
     'Digital Transformation',
   ],
-  authors: [{ name: 'GrowCell IT Architect' }],
+  authors: [{ name: 'Growcell IT Architect' }],
   icons: {
     icon: '/img/cell.JPG',
     shortcut: '/img/cell.JPG',
     apple: '/img/cell.JPG',
   },
   openGraph: {
-    title: 'GrowCell IT Architect & Technology Solutions',
+    title: 'Growcell IT Architect & Technology Solutions',
     description: 'Future-ready IT solutions for growing enterprises.',
-    url: 'https://growcell.in',
-    siteName: 'GrowCell IT Architect',
+    url: 'https://Growcell.in',
+    siteName: 'Growcell IT Architect',
     images: [
       {
         url: '/img/carousel_1.jpg',
         width: 1200,
         height: 630,
-        alt: 'GrowCell IT Architect',
+        alt: 'Growcell IT Architect',
       },
     ],
     locale: 'en_US',
@@ -66,7 +66,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: `
               try {
-                localStorage.removeItem('growcell-theme');
+                localStorage.removeItem('Growcell-theme');
               } catch (e) {}
               document.documentElement.classList.add('dark');
               document.documentElement.classList.remove('light');

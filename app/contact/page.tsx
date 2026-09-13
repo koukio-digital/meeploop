@@ -13,7 +13,7 @@ import {
 
 export const metadata = {
   title: 'Contact Us ',
-  description: 'Reach out to GrowCell IT Architect for IT consulting, custom ERP software, turnkey office networking, or computer & robotics lab setups.',
+  description: 'Reach out to Growcell IT Architect for IT consulting, custom ERP software, turnkey office networking, or computer & robotics lab setups.',
 };
 
 export default function ContactPage() {
@@ -69,7 +69,7 @@ export default function ContactPage() {
             {/* Direct Channel Cards */}
             <div className="space-y-4">
               <a
-                href="mailto:business@growcell.in"
+                href="mailto:business@Growcell.in"
                 className="glass-panel p-5 rounded-2xl border border-slate-200 dark:border-white/10 hover:border-cyan/40 flex items-center gap-4 transition-all group shadow-sm dark:shadow-none"
               >
                 <div className="w-12 h-12 rounded-xl bg-cyan/10 border border-cyan/30 flex items-center justify-center text-cyan group-hover:scale-110 transition-transform">
@@ -78,7 +78,7 @@ export default function ContactPage() {
                 <div>
                   <span className="text-xs text-slate-500 dark:text-slate-400 block font-semibold uppercase tracking-wider">Email Inquiry</span>
                   <span className="text-sm font-bold text-slate-900 dark:text-white group-hover:text-cyan transition-colors">
-                    business@growcell.in
+                    business@Growcell.in
                   </span>
                 </div>
               </a>

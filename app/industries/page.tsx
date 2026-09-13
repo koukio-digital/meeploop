@@ -26,7 +26,7 @@ export default function IndustriesPage() {
       name: 'Education & Institutional Academies',
       subtitle: 'Modernize administration while equipping campuses with modern tech laboratories.',
       challenge: 'Educational institutions frequently juggle disconnected paper processes, fragmented student records, delayed fee collection, and outdated computer hardware.',
-      solution: 'GrowCell delivers a 360-degree edtech ecosystem: integrated School ERP (admissions, attendance, grading, fees), RFID library cataloging, turnkey computer laboratories, and STEM robotics learning centers with structured curricula.',
+      solution: 'Growcell delivers a 360-degree edtech ecosystem: integrated School ERP (admissions, attendance, grading, fees), RFID library cataloging, turnkey computer laboratories, and STEM robotics learning centers with structured curricula.',
       deliverables: ['School Management ERP', 'Automated Fee Gateway', 'Turnkey 40-Seat Computer Labs', 'Robotics & STEM Lab Setup', 'Digital Notice Boards'],
     },
     {
@@ -44,7 +44,7 @@ export default function IndustriesPage() {
       name: 'Restaurants, Cafes & Food Services',
       subtitle: 'Streamline dining room orders, kitchen communication, and food costing.',
       challenge: 'Miscommunication between waiters and kitchen, table turnover delays, food wastage, and chaotic peak-hour order processing.',
-      solution: 'GrowCell deploys intuitive Restaurant Billing Systems equipped with tablet-based table ordering, real-time Kitchen Display Systems (KDS), recipe ingredient consumption tracking, and integrated bill splitting.',
+      solution: 'Growcell deploys intuitive Restaurant Billing Systems equipped with tablet-based table ordering, real-time Kitchen Display Systems (KDS), recipe ingredient consumption tracking, and integrated bill splitting.',
       deliverables: ['Touchscreen & Tablet Billing', 'Kitchen Display System (KDS)', 'Recipe-Level Ingredient Tracking', 'Captain / Waiter Ordering App', 'Aggregator Order Management'],
     },
     {
@@ -62,7 +62,7 @@ export default function IndustriesPage() {
       name: 'Startups & Emerging Tech Ventures',
       subtitle: 'Ship production-ready MVPs that validate product-market fit at breakneck speed.',
       challenge: 'High cost of internal engineering hires, slow development velocity, and fragile codebases that fail when traffic scales.',
-      solution: 'GrowCell acts as your fractional CTO and engineering team, building scalable cloud architectures, high-converting Next.js web applications, and iOS/Android mobile platforms built on robust PostgreSQL/Node.js backends.',
+      solution: 'Growcell acts as your fractional CTO and engineering team, building scalable cloud architectures, high-converting Next.js web applications, and iOS/Android mobile platforms built on robust PostgreSQL/Node.js backends.',
       deliverables: ['Rapid 6-Week MVP Build', 'Scalable Cloud Infrastructure', 'Next.js Web Applications', 'Cross-Platform Mobile Apps', 'Analytics & Event Tracking'],
     },
     {
@@ -80,7 +80,7 @@ export default function IndustriesPage() {
       name: 'Large Enterprises & Public Institutions',
       subtitle: 'Modernize legacy core systems with enterprise security and high availability.',
       challenge: 'Fragile legacy code, security compliance vulnerabilities, and siloed data architectures across disparate regional departments.',
-      solution: 'GrowCell engineers decoupled microservice architectures, enterprise data lakes, hybrid cloud networks, and role-based management portals adhering to stringent data governance.',
+      solution: 'Growcell engineers decoupled microservice architectures, enterprise data lakes, hybrid cloud networks, and role-based management portals adhering to stringent data governance.',
       deliverables: ['Legacy Architecture Modernization', 'Enterprise Data Integration & Lakes', 'High-Availability Server Clusters', 'Role-Based Access Control (RBAC)', 'Disaster Recovery & Redundancy'],
     },
   ];
@@ -96,7 +96,7 @@ export default function IndustriesPage() {
           Architectures tailored to <span className="text-gradient">your industry reality.</span>
         </h1>
         <p className="text-slate-600 dark:text-slate-300 text-lg max-w-3xl mx-auto leading-relaxed">
-          Technology isn't one-size-fits-all. Discover how GrowCell designs domain-specific solutions that resolve the unique challenges of your industry.
+          Technology isn't one-size-fits-all. Discover how Growcell designs domain-specific solutions that resolve the unique challenges of your industry.
         </p>
       </div>
 
@@ -144,7 +144,7 @@ export default function IndustriesPage() {
                 </div>
                 <div>
                   <h3 className="text-xs uppercase tracking-wider font-bold text-emerald-600 dark:text-emerald-400 mb-1">
-                    GrowCell Architecture Solution
+                    Growcell Architecture Solution
                   </h3>
                   <p className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
                     {ind.solution}

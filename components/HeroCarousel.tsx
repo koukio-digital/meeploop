@@ -136,7 +136,7 @@ export default function HeroCarousel() {
       className="relative min-h-[92vh] sm:min-h-screen bg-navy flex items-center overflow-hidden"
       onMouseEnter={() => setIsPaused(true)}
       onMouseLeave={() => setIsPaused(false)}
-      aria-label="GrowCell Hero Carousel"
+      aria-label="Growcell Hero Carousel"
     >
       {/* Background Image Carousel with Zoom Transition */}
       <div className="absolute inset-0 z-0">

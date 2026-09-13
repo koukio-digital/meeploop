@@ -26,7 +26,7 @@ export default function SolutionsPage() {
       icon: <Layers className="w-8 h-8 text-cyan" />,
       title: 'Custom Enterprise ERP Systems',
       tagline: 'Unify inventory, finance, procurement, and operations into one single source of truth.',
-      description: 'Generic ERP software is often bloated, expensive, and rigid. GrowCell builds tailored ERP platforms mapped exactly to your company workflows, approval chains, and multi-location logistics.',
+      description: 'Generic ERP software is often bloated, expensive, and rigid. Growcell builds tailored ERP platforms mapped exactly to your company workflows, approval chains, and multi-location logistics.',
       features: [
         'Multi-warehouse real-time inventory management',
         'Automated accounts payable & receivable reporting',
@@ -151,7 +151,7 @@ export default function SolutionsPage() {
             Technology solutions for the <span className="text-gradient">way you work.</span>
           </h1>
           <p className="text-slate-600 dark:text-slate-300 text-base sm:text-lg max-w-3xl mx-auto leading-relaxed">
-            Say goodbye to fragmented tools and manual spreadsheets. GrowCell develops integrated, tailor-made software solutions that run your core business with automated precision.
+            Say goodbye to fragmented tools and manual spreadsheets. Growcell develops integrated, tailor-made software solutions that run your core business with automated precision.
           </p>
         </div>
       </BackgroundGrid>
@@ -216,7 +216,7 @@ export default function SolutionsPage() {
         ))}
       </div>
 
-      {/* MEANINGFUL SECTION: Off-the-Shelf vs GrowCell Architecture Matrix */}
+      {/* MEANINGFUL SECTION: Off-the-Shelf vs Growcell Architecture Matrix */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-14">
           <span className="inline-block px-3.5 py-1 rounded-full bg-violet-500/10 border border-violet-500/20 text-violet-500 dark:text-violet-400 text-xs font-bold uppercase tracking-widest mb-3">
@@ -236,7 +236,7 @@ export default function SolutionsPage() {
               <tr className="border-b border-slate-200 dark:border-white/10 bg-slate-100 dark:bg-white/5 text-xs font-bold uppercase tracking-wider text-slate-700 dark:text-slate-400">
                 <th className="p-5">Dimension</th>
                 <th className="p-5 text-red-500 dark:text-red-400">Commercial Off-the-Shelf (COTS)</th>
-                <th className="p-5 text-cyan">GrowCell Custom Architecture</th>
+                <th className="p-5 text-cyan">Growcell Custom Architecture</th>
               </tr>
             </thead>
             <tbody className="divide-y divide-slate-200 dark:divide-white/5 text-xs sm:text-sm">
@@ -244,33 +244,33 @@ export default function SolutionsPage() {
                 {
                   dim: 'Software Ownership & IP',
                   cots: 'Rented indefinitely with recurring monthly per-user licenses',
-                  growcell: '100% Owned by your enterprise with zero recurring seat taxes',
+                  Growcell: '100% Owned by your enterprise with zero recurring seat taxes',
                 },
                 {
                   dim: 'Workflow Flexibility',
                   cots: 'Forces your operational teams to adapt to rigid vendor screens',
-                  growcell: 'Engineered specifically around your exact operational & approval chains',
+                  Growcell: 'Engineered specifically around your exact operational & approval chains',
                 },
                 {
                   dim: 'Data Sovereignty & Storage',
                   cots: 'Stored on vendor multi-tenant cloud with limited direct SQL access',
-                  growcell: 'Hosted on your private cloud or on-premise servers with total control',
+                  Growcell: 'Hosted on your private cloud or on-premise servers with total control',
                 },
                 {
                   dim: 'Scalability & Features',
                   cots: 'Pay steep tier upgrades for every new module or custom report',
-                  growcell: 'Modular architecture allows free unlimited feature additions anytime',
+                  Growcell: 'Modular architecture allows free unlimited feature additions anytime',
                 },
                 {
                   dim: 'Hardware Integration',
                   cots: 'Often incompatible with custom factory scanners or campus hardware',
-                  growcell: 'Direct integration with barcode printers, biometrics, and IoT sensors',
+                  Growcell: 'Direct integration with barcode printers, biometrics, and IoT sensors',
                 },
               ].map((row) => (
                 <tr key={row.dim} className="hover:bg-slate-50 dark:hover:bg-white/5 transition-colors">
                   <td className="p-5 font-bold text-slate-900 dark:text-[var(--text-main)]">{row.dim}</td>
                   <td className="p-5 text-slate-600 dark:text-slate-400">{row.cots}</td>
-                  <td className="p-5 text-cyan font-semibold">{row.growcell}</td>
+                  <td className="p-5 text-cyan font-semibold">{row.Growcell}</td>
                 </tr>
               ))}
             </tbody>

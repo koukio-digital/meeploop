@@ -113,7 +113,7 @@ export default function InfrastructurePage() {
           Build the <span className="text-gradient">physical tech foundation.</span>
         </h1>
         <p className="text-slate-600 dark:text-slate-300 text-lg max-w-3xl mx-auto leading-relaxed">
-          Behind every great software platform is resilient hardware and networking. GrowCell engineers physical infrastructure, turnkey computer laboratories, and STEM robotics centers.
+          Behind every great software platform is resilient hardware and networking. Growcell engineers physical infrastructure, turnkey computer laboratories, and STEM robotics centers.
         </p>
       </div>
 

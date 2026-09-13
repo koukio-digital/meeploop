@@ -79,7 +79,7 @@ export default function Navbar() {
             <div className="relative h-10 w-36 sm:w-44 flex items-center">
               <Image 
                 src="/img/logo.png" 
-                alt="GrowCell IT Architect" 
+                alt="Growcell IT Architect" 
                 width={176} 
                 height={40} 
                 className="object-contain filter brightness-110 drop-shadow"
@@ -236,7 +236,7 @@ export default function Navbar() {
               <div className="relative h-9 w-36">
                 <Image 
                   src="/img/logo.png" 
-                  alt="GrowCell IT Architect" 
+                  alt="Growcell IT Architect" 
                   width={144} 
                   height={36} 
                   className="object-contain filter brightness-110" 

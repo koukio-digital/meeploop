@@ -15,7 +15,7 @@ import {
 } from 'lucide-react';
 
 export const metadata = {
-  title: 'About ',
+  title: 'About',
   description: 'Learn about Growcell IT Architect: our engineering philosophy, mission, values, and how we empower enterprises with future-ready digital solutions.',
 };
 
@@ -58,13 +58,13 @@ export default function AboutPage() {
       {/* Header Banner */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-20 text-center">
         <span className="inline-block px-3 py-1 rounded-full bg-cyan/10 text-cyan text-xs font-bold uppercase tracking-widest mb-4">
-          About GrowCell
+          About Growcell
         </span>
         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 dark:text-white tracking-tight mb-6">
           Architecting the future of <span className="text-gradient">enterprise technology.</span>
         </h1>
         <p className="text-slate-600 dark:text-slate-300 text-lg max-w-3xl mx-auto leading-relaxed">
-          GrowCell IT Architect bridges the critical gap between executive business strategy and deep technical execution.
+          Growcell IT Architect bridges the critical gap between executive business strategy and deep technical execution.
         </p>
       </div>
 
@@ -76,13 +76,13 @@ export default function AboutPage() {
               Our Origin & Purpose
             </span>
             <h2 className="text-3xl font-extrabold text-slate-900 dark:text-white leading-tight">
-              Why GrowCell exists in a world of cookie-cutter software.
+              Why Growcell exists in a world of cookie-cutter software.
             </h2>
             <p className="text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed">
               Growing companies routinely face a difficult dilemma: expensive, rigid off-the-shelf software packages that don&apos;t fit their workflows, or fragmented ad-hoc contractors who don&apos;t understand architectural scalability.
             </p>
             <p className="text-slate-600 dark:text-slate-300 text-sm sm:text-base leading-relaxed">
-              GrowCell was established to provide true <strong className="text-slate-900 dark:text-white">IT Architecture as a Service</strong>. We combine high-level advisory with hands-on software development and turnkey hardware infrastructure deployment. Whether setting up a 100-seat school computer lab or engineering an enterprise ERP, we engineer solutions with precision.
+              Growcell was established to provide true <strong className="text-slate-900 dark:text-white">IT Architecture as a Service</strong>. We combine high-level advisory with hands-on software development and turnkey hardware infrastructure deployment. Whether setting up a 100-seat school computer lab or engineering an enterprise ERP, we engineer solutions with precision.
             </p>
 
             <div className="grid grid-cols-2 gap-4 pt-4 border-t border-slate-200 dark:border-white/10">
