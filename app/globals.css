@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy: #0A0F1D;
+  --midnight: #0D1527;
+  --charcoal: #1F2937;
+  --dark-surface: #111827;
+  --white: #FFFFFF;
+  --offwhite: #F8FAFC;
+  --slate: #94A3B8;
+  --slate-dark: #64748B;
+  --cyan: #06B6D4;
+  --blue: #2563EB;
+  --violet: #8B5CF6;
+  --emerald: #10B981;
+
+  /* Theme variables - Pure High-Tech Dark */
+  --bg-main: #0A0F1D;
+  --bg-secondary: #0D1527;
+  --bg-card: rgba(13, 21, 39, 0.85);
+  --bg-card-hover: rgba(17, 24, 39, 0.95);
+  --text-main: #F8FAFC;
+  --text-muted: #94A3B8;
+  --border-main: rgba(255, 255, 255, 0.08);
+  --border-hover: rgba(6, 182, 212, 0.4);
+}
+
+html {
+  scroll-behavior: smooth;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  background-color: #0A0F1D;
+  color: #F8FAFC;
+}
+
+body {
+  background-color: #0A0F1D;
+  color: #F8FAFC;
+  font-family: var(--font-primary), system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  touch-action: manipulation;
+}
+
+/* Zero Delay & Instant Button Response */
+*, *::before, *::after {
+  touch-action: manipulation;
+}
+
+button, a, input, select, textarea, [role="button"] {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:active, a:active, [role="button"]:active {
+  transition-duration: 50ms !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0F1D;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #06B6D4;
+}
+
+/* Tech grid overlay */
+.tech-grid-overlay {
+  background-image: 
+    linear-gradient(rgba(6, 182, 212, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(6, 182, 212, 0.04) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Radial Glows */
+.glow-cyan {
+  box-shadow: 0 0 40px rgba(6, 182, 212, 0.25);
+}
+
+.glow-blue {
+  box-shadow: 0 0 40px rgba(37, 99, 235, 0.25);
+}
+
+/* Glassmorphism */
+.glass-panel {
+  background: var(--bg-card);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--border-main);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-panel-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.glass-panel-hover:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-hover);
+  transform: translateY(-4px);
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.35);
+}
+
+/* Gradient text utility */
+.text-gradient {
+  background: linear-gradient(135deg, #06B6D4 0%, #2563EB 50%, #8B5CF6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Suppress Next.js dev indicator badge */
+[data-next-badge="true"],
+[data-nextjs-dev-tools-button="true"],
+#next-logo,
+nextjs-portal,
+div[data-next-badge],
+button#next-logo,
+div:has(> button#next-logo),
+div:has(> [data-next-badge="true"]) {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  overflow: hidden !important;
+}
