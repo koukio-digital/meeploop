@@ -113,8 +113,8 @@ export default function HomePage() {
             <div className="text-xs sm:text-sm font-semibold text-[var(--text-muted)]">Educational Labs Deployed</div>
           </div>
           <div className="space-y-1 border-l border-white/10 pl-4 sm:pl-6">
-            <div className="text-3xl sm:text-4xl font-extrabold text-blue-400 font-display">120k+</div>
-            <div className="text-xs sm:text-sm font-semibold text-[var(--text-muted)]">Daily Platform Transactions</div>
+            <div className="text-3xl sm:text-4xl font-extrabold text-blue-400 font-display">~1.7k+</div>
+            <div className="text-xs sm:text-sm font-semibold text-[var(--text-muted)]">Daily Website Visitors</div>
           </div>
           <div className="space-y-1 border-l border-white/10 pl-4 sm:pl-6">
             <div className="text-3xl sm:text-4xl font-extrabold text-emerald-400 font-display">3.8x</div>
@@ -363,20 +363,20 @@ export default function HomePage() {
             {[
               {
                 quote: "Growcell built an ERP that fits our wholesale operations like a glove. We stopped bleeding inventory and our accountants finally have real-time reconciliation.",
-                name: "Rajiv Singhania",
-                role: "Managing Director, Apex Wholesale Supplies",
+                name: "Rajveer Singh",
+                role: "Managing Director, Apex Supplies Pvt ltd ",
                 rating: 5,
               },
               {
                 quote: "The 50-seat robotics lab setup was delivered ahead of schedule. Growcell trained our teachers and the student engagement has been extraordinary.",
                 name: "Dr. Ananya Sharma",
-                role: "Academic Director, Greenwood International",
+                role: "Academic Director, Shreeji International School ,HR",
                 rating: 5,
               },
               {
                 quote: "Their full-stack infrastructure team wired our entire 3-story headquarters with Cat6A and enterprise servers without disrupting a single work hour.",
-                name: "Vikram Malhotra",
-                role: "VP of Operations, TechSphere Solutions",
+                name: "Vikram ",
+                role: "VP of Operations, webocore Solutions pvt ltd",
                 rating: 5,
               },
             ].map((t) => (
